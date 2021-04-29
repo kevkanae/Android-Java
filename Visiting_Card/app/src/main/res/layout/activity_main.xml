@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#f7d9d9"
     tools:context=".MainActivity">
 
 
@@ -11,6 +12,7 @@
         android:layout_width="370dp"
         android:layout_height="400dp"
         app:cardElevation="7dp"
+        android:background="#dddddd"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,34 +30,37 @@
 
             <TextView
                 android:id="@+id/textView3"
-                android:layout_width="match_parent"
+                android:layout_width="360dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:textSize=""
                 android:text="@string/kanae_inc"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:textColor="#f25287"
+                android:textSize="30sp" />
 
             <Space
-                android:layout_width="232dp"
+                android:layout_width="173dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="283dp"
-                android:layout_gravity="center_vertical"
                 android:layout_height="79dp"
+                android:layout_gravity="center_vertical"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/Logo"
-                android:contentDescription="@string/logo" />
+                android:contentDescription="@string/logo"
+                app:srcCompat="@drawable/Logo" />
         </LinearLayout>
 
         <View
             android:id="@+id/divider2"
-            android:layout_width="match_parent"
+            android:layout_width="290dp"
+            android:layout_gravity="center"
             android:layout_height="1dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
             android:background="@color/black" />
     </LinearLayout>
     </androidx.cardview.widget.CardView>
