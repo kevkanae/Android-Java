@@ -50,8 +50,8 @@
                 android:layout_height="79dp"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
-                android:contentDescription="@string/logo"
-                app:srcCompat="@drawable/Logo" />
+                android:contentDescription="@string/logow"
+                app:srcCompat="@drawable/logo" />
         </LinearLayout>
 
         <View
@@ -62,6 +62,73 @@
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
             android:background="@color/black" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="23dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textFontWeight="500"
+            android:fontFamily="sans-serif"
+            android:text="@string/kevin_daniel_goveas" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:text="@string/student" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:text="@string/_91_948283848" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:text="@string/manipal_udupi" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:text="@string/kanae_gmail_com" />
     </LinearLayout>
     </androidx.cardview.widget.CardView>
 

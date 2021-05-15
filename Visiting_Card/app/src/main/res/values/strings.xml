@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Visiting_Card</string>
-    <string name="Kanae">Kanae</string>
     <string name="kanae_inc">Kanae Inc.</string>
-    <string name="logo">Logo</string>
+    <string name="kevin_daniel_goveas">Kevin Daniel Goveas</string>
+    <string name="student">Student</string>
+    <string name="_91_948283848">+91 948283848</string>
+    <string name="manipal_udupi">Manipal, Udupi</string>
+    <string name="kanae_gmail_com">kanae@gmail.com</string>
+    <string name="logow">logo</string>
 </resources>
