@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#e4efe7"
     tools:context=".MainActivity">
 
     <TextView
@@ -11,6 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
+        android:textColor="#34656d"
         android:gravity="center_vertical"
         android:text="@string/text_to_speech"
         android:textSize="35sp"
@@ -25,6 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="44dp"
+        android:textColor="#34656d"
         android:ems="14"
         android:autofillHints="@string/enter_text"
         android:hint="@string/enter_text"
@@ -39,6 +42,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="272dp"
         android:text="@string/convert"
+        android:textColor="#34656d"
+        android:backgroundTint="#a9f1df"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
